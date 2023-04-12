@@ -9,44 +9,48 @@ html{
 }
 
 body{
-    background-color: #C1FFEB;
+    background-color: rgb(240, 240, 240);
 }
 
 .container{
-    width: 480px;
-    height: 854px;
-    background-color: #00C080;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: auto;
+    max-width: 500px;
+    height: 100vh;
+    background: #00C080;
+    margin: 0 auto;
+    background-image: url("3136439-resize.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .header img{
     width: 120px;
     height: 120px;
-    border-radius: 90px;
+    border-radius: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 175px;
-    margin-top: -200px;
+    padding: 20px;
+    margin: 0 auto;
 }
 
-.profile p{
+.header p{
     text-align: center;
     font-size: 25px;
-    margin-top: 18px;
-    color: antiquewhite;
-    padding: 10px;
-    margin-top: -70px;
+    color: white;
+    text-shadow: black;
 }
 
 .link{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin-top: -30px;
+}
+
+.link a{
+    text-decoration: none;
+    font-size: 30px;
+    color: rgb(10, 88, 65);
 }
 
 .button{
@@ -60,11 +64,6 @@ body{
     margin-top: 20px;
 }
 
-a{
-    text-decoration: none;
-    font-size: 30px;
-    color: rgb(10, 88, 65);
-}
 
 a:hover{
     color: tomato;
@@ -72,7 +71,8 @@ a:hover{
 
 .footer{
     font-size: 15px;
-    color: rgb(10, 88, 65);
+    color: rgb(255, 255, 255);
     text-align: center;
-    margin-top: 20px;
+    margin-top: 25px;
+    text-shadow: black;
 }
